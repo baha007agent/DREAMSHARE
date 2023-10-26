@@ -205,6 +205,96 @@ body {
     align-items: center;
 }
 
+.discover {
+    margin: 100px 0 35px 0;
+}
+
+.discover-4 {
+    color: #444;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.discover-block-1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.img1 {
+    position: relative;
+}
+
+.discover-text-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.discover-title-h3 {
+    position: absolute;
+    bottom: 135px;
+    color: #c0b6b6;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.discover-title-h5 {
+    position: absolute;
+    bottom: 135px;
+    color: #c0b6b6;
+    font-size: 22px;
+    max-width: 187px;
+}
+
+.discover-block-2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.discover-img1 {
+    position: relative;
+}
+
+.discover-red {
+    display: flex;
+    justify-content: center;
+}
+
+.discover-red-h3 {
+    position: absolute;
+    bottom: 135px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 770px) {
+    .meet-title {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+        align-items: baseline;
+    }
+    .img1 img {
+        max-width: 220px;
+        height: 290px;
+    }
+    .discover-img1 img {
+        max-width: 456px;
+        border-radius: 5px;
+        height: 290px;
+    }
+}
+
 @media screen and (max-width: 510px) {
     .hero-title {
         text-align: center;
@@ -231,5 +321,30 @@ body {
     .Dreamshare-steep1 {
         display: flex;
         justify-content: center;
+    }
+    .discover-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .meet-title-grup {
+        display: block;
+        justify-content: center;
+    }
+    .img1 img {
+        max-width: 300px;
+        height: 300px;
+    }
+    .discover-img1 img {
+        max-width: 300px;
+        height: 300px;
+    }
+    .discover-block-1 {
+        display: block;
+    }
+
+    .discover-block-2 {
+        display: block;
     }
 }
