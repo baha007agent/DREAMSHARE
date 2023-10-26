@@ -147,6 +147,64 @@ body {
     max-width: 250px;
 }
 
+.meet {
+    margin: 90px 0 30px 0;
+}
+
+.meet-title-h3 {
+    color: #444;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.meet-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.meet-title-grup {
+    text-align: center;
+}
+
+.meet-title-p {
+    color: #444;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.meet-end {
+    color: #666;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    max-width: 221px;
+}
+
+.meet-btn {
+    color: #ff4e50;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 24px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 2px solid #ff4e50;
+    background: #fff;
+}
+
+.meet-btns {
+    padding: 40px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 510px) {
     .hero-title {
         text-align: center;
