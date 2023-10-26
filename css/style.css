@@ -302,6 +302,14 @@ body {
     margin-top: 25px;
     height: 35px;
     margin-right: 10px;
+    width: 299px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #d4d4d4;
+    background: #fff;
+    color: #999;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .input button {
