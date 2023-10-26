@@ -275,6 +275,109 @@ body {
     font-weight: 700;
 }
 
+.section-end {
+    margin-top: 50px;
+}
+
+.w4text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.w4text h4 {
+    color: #444;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.w4text p {
+    color: #666;
+    font-size: 18px;
+    line-height: 14px;
+}
+
+.input input {
+    margin-top: 25px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.input button {
+    width: 172.125px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: #ff4e50;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+}
+
+hr {
+    margin-top: 5pc;
+    background: #ff4e50;
+    height: 2.5px;
+    border: none;
+}
+
+.footer-nav {
+    margin-top: 5pc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company {
+    display: block;
+    text-align: start;
+}
+
+.company nav {
+    list-style: none;
+}
+
+.company a {
+    text-decoration: none;
+    color: #999;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px; /* 185.714% */
+}
+
+.logo-end a {
+    color: #ff4e50;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.company h6 {
+    margin-top: 0;
+    color: #444;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.partner a {
+    text-decoration: none;
+    color: #444;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 @media screen and (max-width: 770px) {
     .meet-title {
         display: flex;
@@ -346,5 +449,47 @@ body {
 
     .discover-block-2 {
         display: block;
+    }
+
+    .footer-nav {
+        margin-top: 5pc;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .fl2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    .fl3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50;
+    }
+    .logo-end {
+        margin-bottom: 20px;
+    }
+    .company h6 {
+        margin: 0;
+    }
+    .partner {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .logo-end2 {
+        margin-bottom: 20px;
     }
 }
